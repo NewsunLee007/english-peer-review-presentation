@@ -33,3 +33,11 @@
 .case-film{display:block;width:100%;max-height:68svh;border-radius:9px;background:#e4e9d8}.film-chapters{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}
 @media(min-width:1001px) and (max-height:760px){.hero-art img{max-height:calc(100svh - 245px)}#s6 .case-copy blockquote{margin-bottom:17px}#s6 .evidence-points{margin-bottom:15px}#s6 .original-window figcaption{font-size:11px;margin-top:8px}}
 @media(max-width:760px),(max-width:1000px) and (max-height:500px){.hero h1 br:nth-child(2){display:initial}}
+
+/* Presenter controls: pause includes every decorative animation in the same scene. */
+.paused *,.paused *:before,.paused *:after{animation-play-state:paused!important}
+.criteria-grid p{color:#4d6546!important}.slide:not(.dark) .footnote{color:#4f6349!important}.criteria-grid>button>span{color:#4f6349}.stage-text p{color:#644f70}.slide:not(.dark) .slide-top,.slide:not(.dark) .page-index{color:#50634c}.project-name small{color:#596047}
+#projectorExit{position:fixed;z-index:50;right:16px;top:12px;font-size:12px;padding:7px 11px;background:#f5f3ebee;color:#36513c;border:1px solid #b9c4ae}.projecting .toolbar{display:none}.projecting .deck{margin:12px 12px 48px}.projecting .slide{height:calc(100svh - 60px);min-height:540px;padding-top:18px}.projecting .footer{height:43px;left:22px;right:22px}.projecting .footer-title,.projecting .footer-progress,.projecting .footer-chapter small{display:none}.projecting .footer #counter{margin-left:auto}.projecting .footer button{padding-block:6px}.projecting .slide-top{padding-right:110px;margin-bottom:18px}.calibration-choices{display:grid;gap:12px}.calibration-choices button{text-align:left;line-height:1.7}.calibration-choices button[aria-pressed=true]{background:#dfe9c7!important;color:#2f4b32}
+@media(max-width:760px){#projectorButton{display:none}.projecting .slide{height:auto;min-height:calc(100svh - 60px)}}
+
+#dialogBody .small,dialog>header small{color:#536447}.stage-label{color:#675574}.violet .animation-controls button{color:#644f70}
